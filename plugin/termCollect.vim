@@ -21,7 +21,7 @@ nmap <f7> <Plug>(termCollect-toggle)
 " tmap <f10> <C-\><C-n><Plug>(termCollect-next)
 
 
-nnoremap <f5> :<C-u>call termCollect#termDbg()<CR>
+"nnoremap <f5> :<C-u>call termCollect#termDbg()<CR>
 
 hi termCollect_select cterm=bold ctermfg=232 ctermbg=179
 hi termCollect_noselect cterm=None ctermfg=214 ctermbg=242
